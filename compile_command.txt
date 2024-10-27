@@ -1,1 +1,5 @@
+To compile the project to an exe 
+install pyinstaller:
+pip install pyinstaller
+and then run:
 pyinstaller --onefile --add-data "bluetooth.exe;." --add-data "./ev3;ev3" --add-data "EV3connect.py;." --add-data "helpers.py;." --icon "./ev3/a_logo.ico" main.py
