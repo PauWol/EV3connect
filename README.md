@@ -74,6 +74,7 @@ python main.py
 If you encounter issues connecting to the EV3 brick, try the following:
 
 * If you previously ran the application and then closed it, try turning off and then on the Bluetooth on your PC. This will reset the connection and allow you to try again.
+* If your Ev3 brick does not show up in the ui to pair to,open Windows Bluetooth scan and wait a few seconds then refresh the ui using the provided button.
 
 ### Pairing Issues
 
